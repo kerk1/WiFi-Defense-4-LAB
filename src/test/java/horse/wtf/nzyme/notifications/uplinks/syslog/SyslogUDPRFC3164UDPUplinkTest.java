@@ -17,8 +17,6 @@
 
 package horse.wtf.nzyme.notifications.uplinks.syslog;
 
-import horse.wtf.nzyme.dot11.Dot11MetaInformation;
-import horse.wtf.nzyme.notifications.Notification;
 import org.testng.annotations.Test;
 
 import java.net.InetSocketAddress;

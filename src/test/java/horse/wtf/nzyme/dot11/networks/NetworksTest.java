@@ -2,7 +2,6 @@ package horse.wtf.nzyme.dot11.networks;
 
 import com.codahale.metrics.MetricRegistry;
 import horse.wtf.nzyme.MockNzyme;
-import horse.wtf.nzyme.dot11.Dot11MetaInformation;
 import horse.wtf.nzyme.dot11.Dot11SecurityConfiguration;
 import horse.wtf.nzyme.dot11.Dot11TaggedParameters;
 import horse.wtf.nzyme.dot11.MalformedFrameException;

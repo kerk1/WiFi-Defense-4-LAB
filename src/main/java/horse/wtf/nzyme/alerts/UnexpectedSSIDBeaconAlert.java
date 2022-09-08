@@ -17,21 +17,19 @@
 
 package horse.wtf.nzyme.alerts;
 
+import app.nzyme.plugin.Alert;
+import app.nzyme.plugin.Subsystem;
 import com.google.common.base.Strings;
 import com.google.common.collect.ImmutableMap;
-import horse.wtf.nzyme.Subsystem;
-import horse.wtf.nzyme.dot11.Dot11MetaInformation;
-import horse.wtf.nzyme.dot11.probes.Dot11Probe;
 import horse.wtf.nzyme.notifications.FieldNames;
 import org.joda.time.DateTime;
 
-import javax.annotation.Nullable;
 import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class UnexpectedSSIDBeaconAlert extends Alert  {
+public class UnexpectedSSIDBeaconAlert extends Alert {
 
     private static final String DESCRIPTION = "One of our stations is advertising a SSID (network name) that we did not expect. An attacker might have gained access " +
             "to access point configuration and could have created a new wireless network. This alert can also indicate actions of an attacker who is not careful with " +

@@ -74,18 +74,6 @@ public class Tools {
         return true;
     }
 
-    public static int calculateSignalQuality(int antennaSignal) {
-        if(antennaSignal >= -50) {
-            return 100;
-        }
-
-        if(antennaSignal <= -100) {
-            return 0;
-        }
-
-        return 2*(antennaSignal+100);
-    }
-
     public static boolean isSafeParameter(String x) {
         if (x == null) {
             return true;

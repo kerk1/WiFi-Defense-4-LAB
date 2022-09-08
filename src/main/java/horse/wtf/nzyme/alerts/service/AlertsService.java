@@ -21,7 +21,6 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Lists;
 import horse.wtf.nzyme.NzymeLeader;
-import horse.wtf.nzyme.alerts.Alert;
 import horse.wtf.nzyme.alerts.service.callbacks.AlertCallback;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

@@ -19,15 +19,11 @@ package horse.wtf.nzyme.dot11.parsers;
 
 import com.codahale.metrics.MetricRegistry;
 import com.google.common.base.Strings;
-import horse.wtf.nzyme.dot11.Dot11MetaInformation;
 import horse.wtf.nzyme.dot11.MalformedFrameException;
 import horse.wtf.nzyme.dot11.anonymization.Anonymizer;
 import horse.wtf.nzyme.dot11.frames.Dot11ProbeRequestFrame;
-import horse.wtf.nzyme.util.Tools;
 import org.pcap4j.packet.Dot11ProbeRequestPacket;
 import org.pcap4j.packet.IllegalRawDataException;
-
-import java.text.Normalizer;
 
 public class Dot11ProbeRequestFrameParser extends Dot11FrameParser<Dot11ProbeRequestFrame> {
 

@@ -17,10 +17,7 @@
 
 package horse.wtf.nzyme.notifications.uplinks.graylog;
 
-import horse.wtf.nzyme.alerts.Alert;
-import horse.wtf.nzyme.dot11.Dot11MetaInformation;
 import horse.wtf.nzyme.notifications.FieldNames;
-import horse.wtf.nzyme.notifications.Notification;
 import horse.wtf.nzyme.notifications.Uplink;
 import org.graylog2.gelfclient.GelfConfiguration;
 import org.graylog2.gelfclient.GelfMessage;
@@ -28,7 +25,6 @@ import org.graylog2.gelfclient.GelfTransports;
 import org.graylog2.gelfclient.transport.GelfTransport;
 
 import javax.annotation.Nullable;
-import java.net.InetAddress;
 import java.net.InetSocketAddress;
 import java.util.Map;
 

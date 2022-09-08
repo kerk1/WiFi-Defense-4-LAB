@@ -17,10 +17,7 @@
 
 package horse.wtf.nzyme.notifications.uplinks.logger;
 
-import horse.wtf.nzyme.alerts.Alert;
 import horse.wtf.nzyme.dot11.probes.Dot11Probe;
-import horse.wtf.nzyme.dot11.Dot11MetaInformation;
-import horse.wtf.nzyme.notifications.Notification;
 import horse.wtf.nzyme.notifications.Uplink;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

@@ -17,9 +17,6 @@
 
 package horse.wtf.nzyme.dot11;
 
-import horse.wtf.nzyme.alerts.Alert;
-import org.pcap4j.packet.IllegalRawDataException;
-
 import java.util.List;
 
 public interface Dot11FrameInterceptor<T> {

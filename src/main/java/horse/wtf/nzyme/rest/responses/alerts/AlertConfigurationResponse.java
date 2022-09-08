@@ -19,7 +19,6 @@ package horse.wtf.nzyme.rest.responses.alerts;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.google.auto.value.AutoValue;
-import horse.wtf.nzyme.alerts.Alert;
 
 import java.util.List;
 

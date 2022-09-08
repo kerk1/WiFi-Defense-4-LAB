@@ -18,7 +18,6 @@
 package horse.wtf.nzyme.remote.forwarders;
 
 import com.google.protobuf.ByteString;
-import horse.wtf.nzyme.dot11.Dot11MetaInformation;
 import horse.wtf.nzyme.dot11.frames.Dot11Frame;
 import horse.wtf.nzyme.remote.protobuf.NzymeMessage;
 import org.apache.logging.log4j.LogManager;

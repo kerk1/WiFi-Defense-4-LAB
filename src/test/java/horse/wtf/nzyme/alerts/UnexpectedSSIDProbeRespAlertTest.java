@@ -1,6 +1,5 @@
 package horse.wtf.nzyme.alerts;
 
-import horse.wtf.nzyme.Subsystem;
 import org.joda.time.DateTime;
 import org.testng.annotations.Test;
 

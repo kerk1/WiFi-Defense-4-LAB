@@ -17,7 +17,6 @@
 
 package horse.wtf.nzyme.dot11.interceptors;
 
-import horse.wtf.nzyme.alerts.Alert;
 import horse.wtf.nzyme.alerts.PwnagotchiAdvertisementAlert;
 import horse.wtf.nzyme.alerts.service.AlertsService;
 import horse.wtf.nzyme.dot11.Dot11FrameInterceptor;
@@ -25,7 +24,6 @@ import horse.wtf.nzyme.dot11.Dot11FrameSubtype;
 import horse.wtf.nzyme.dot11.frames.Dot11BeaconFrame;
 import horse.wtf.nzyme.dot11.misc.PwnagotchiAdvertisementExtractor;
 import org.joda.time.DateTime;
-import org.pcap4j.packet.IllegalRawDataException;
 
 import java.util.ArrayList;
 import java.util.List;

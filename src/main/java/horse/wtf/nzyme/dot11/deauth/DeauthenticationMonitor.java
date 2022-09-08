@@ -19,7 +19,6 @@ package horse.wtf.nzyme.dot11.deauth;
 
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
 import horse.wtf.nzyme.NzymeLeader;
-import horse.wtf.nzyme.alerts.Alert;
 import horse.wtf.nzyme.alerts.DeauthFloodAlert;
 import horse.wtf.nzyme.dot11.frames.Dot11DeauthenticationFrame;
 import horse.wtf.nzyme.dot11.frames.Dot11DisassociationFrame;

@@ -20,7 +20,6 @@ package horse.wtf.nzyme.dot11.frames;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.google.auto.value.AutoValue;
 import horse.wtf.nzyme.dot11.Dot11FrameSubtype;
-import horse.wtf.nzyme.dot11.Dot11MetaInformation;
 import horse.wtf.nzyme.dot11.Dot11TaggedParameters;
 
 import javax.annotation.Nullable;

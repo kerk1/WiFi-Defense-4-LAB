@@ -18,7 +18,6 @@
 package horse.wtf.nzyme.dot11.interceptors;
 
 import com.google.common.collect.ImmutableList;
-import horse.wtf.nzyme.alerts.Alert;
 import horse.wtf.nzyme.alerts.UnknownSSIDAlert;
 import horse.wtf.nzyme.alerts.service.AlertsService;
 import horse.wtf.nzyme.dot11.Dot11FrameInterceptor;

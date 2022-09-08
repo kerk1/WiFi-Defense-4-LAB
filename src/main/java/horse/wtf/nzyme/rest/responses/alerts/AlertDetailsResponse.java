@@ -19,8 +19,6 @@ package horse.wtf.nzyme.rest.responses.alerts;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.google.auto.value.AutoValue;
-import horse.wtf.nzyme.Subsystem;
-import horse.wtf.nzyme.alerts.Alert;
 import horse.wtf.nzyme.alerts.service.AlertsService;
 import org.joda.time.DateTime;
 

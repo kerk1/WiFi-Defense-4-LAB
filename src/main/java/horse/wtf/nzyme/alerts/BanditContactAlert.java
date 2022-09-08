@@ -17,13 +17,13 @@
 
 package horse.wtf.nzyme.alerts;
 
+import app.nzyme.plugin.Alert;
+import app.nzyme.plugin.Subsystem;
 import com.google.common.base.Strings;
 import com.google.common.collect.ImmutableMap;
-import horse.wtf.nzyme.Subsystem;
 import horse.wtf.nzyme.notifications.FieldNames;
 import org.joda.time.DateTime;
 
-import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;

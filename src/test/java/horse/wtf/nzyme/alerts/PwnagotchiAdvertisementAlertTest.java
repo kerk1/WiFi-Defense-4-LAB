@@ -1,6 +1,5 @@
 package horse.wtf.nzyme.alerts;
 
-import horse.wtf.nzyme.Subsystem;
 import horse.wtf.nzyme.dot11.interceptors.misc.PwnagotchiAdvertisement;
 import horse.wtf.nzyme.notifications.FieldNames;
 import org.joda.time.DateTime;

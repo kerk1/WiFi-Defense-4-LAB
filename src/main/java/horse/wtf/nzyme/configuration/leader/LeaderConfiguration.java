@@ -3,7 +3,6 @@ package horse.wtf.nzyme.configuration.leader;
 import com.google.auto.value.AutoValue;
 import com.google.common.collect.ImmutableList;
 import horse.wtf.nzyme.Role;
-import horse.wtf.nzyme.alerts.Alert;
 import horse.wtf.nzyme.alerts.service.callbacks.AlertCallback;
 import horse.wtf.nzyme.configuration.*;
 

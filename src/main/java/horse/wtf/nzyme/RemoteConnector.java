@@ -17,10 +17,7 @@
 
 package horse.wtf.nzyme;
 
-import horse.wtf.nzyme.alerts.Alert;
-import horse.wtf.nzyme.dot11.Dot11MetaInformation;
 import horse.wtf.nzyme.dot11.frames.Dot11Frame;
-import horse.wtf.nzyme.notifications.Notification;
 
 public interface RemoteConnector {
 

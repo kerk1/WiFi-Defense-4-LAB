@@ -20,7 +20,6 @@ package horse.wtf.nzyme.configuration;
 import com.google.common.collect.ImmutableList;
 import horse.wtf.nzyme.ResourcesAccessingTest;
 import horse.wtf.nzyme.Role;
-import horse.wtf.nzyme.alerts.Alert;
 import horse.wtf.nzyme.configuration.leader.LeaderConfiguration;
 import horse.wtf.nzyme.configuration.leader.LeaderConfigurationLoader;
 import org.simplejavamail.api.email.Recipient;

@@ -17,8 +17,9 @@
 
 package horse.wtf.nzyme.alerts;
 
+import app.nzyme.plugin.Alert;
+import app.nzyme.plugin.Subsystem;
 import com.google.common.collect.ImmutableMap;
-import horse.wtf.nzyme.Subsystem;
 import horse.wtf.nzyme.notifications.FieldNames;
 import org.joda.time.DateTime;
 

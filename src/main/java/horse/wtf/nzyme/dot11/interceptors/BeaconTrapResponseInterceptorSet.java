@@ -18,7 +18,6 @@
 package horse.wtf.nzyme.dot11.interceptors;
 
 import com.google.common.collect.ImmutableList;
-import horse.wtf.nzyme.alerts.Alert;
 import horse.wtf.nzyme.alerts.BeaconTrapResponseAlert;
 import horse.wtf.nzyme.alerts.ProbeRequestTrapResponseAlert;
 import horse.wtf.nzyme.alerts.service.AlertsService;
@@ -29,7 +28,6 @@ import horse.wtf.nzyme.dot11.frames.Dot11ProbeResponseFrame;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.joda.time.DateTime;
-import org.pcap4j.packet.IllegalRawDataException;
 
 import java.util.ArrayList;
 import java.util.List;

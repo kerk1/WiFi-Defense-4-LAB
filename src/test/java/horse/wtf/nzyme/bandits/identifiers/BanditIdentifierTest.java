@@ -17,8 +17,6 @@
 
 package horse.wtf.nzyme.bandits.identifiers;
 
-import horse.wtf.nzyme.dot11.Dot11MetaInformation;
-
 public class BanditIdentifierTest {
 
     protected static final Dot11MetaInformation META_NO_WEP = new Dot11MetaInformation(false, 100, 2400, 1, 0L, false);

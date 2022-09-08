@@ -18,7 +18,6 @@
 package horse.wtf.nzyme.dot11.interceptors;
 
 import horse.wtf.nzyme.NzymeLeader;
-import horse.wtf.nzyme.dot11.Dot11MetaInformation;
 import horse.wtf.nzyme.notifications.uplinks.misc.LoopbackUplink;
 
 public class InterceptorSetTest {

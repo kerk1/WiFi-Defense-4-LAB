@@ -19,7 +19,6 @@ package horse.wtf.nzyme.rest.resources;
 
 import com.google.common.collect.Lists;
 import horse.wtf.nzyme.NzymeLeader;
-import horse.wtf.nzyme.alerts.Alert;
 import horse.wtf.nzyme.bandits.Contact;
 import horse.wtf.nzyme.bandits.engine.ContactRecordAggregation;
 import horse.wtf.nzyme.bandits.engine.ContactRecorder;

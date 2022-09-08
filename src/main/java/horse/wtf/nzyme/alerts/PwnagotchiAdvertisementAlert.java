@@ -17,17 +17,13 @@
 
 package horse.wtf.nzyme.alerts;
 
+import app.nzyme.plugin.Alert;
+import app.nzyme.plugin.Subsystem;
 import com.google.common.collect.ImmutableMap;
-import horse.wtf.nzyme.Subsystem;
-import horse.wtf.nzyme.dot11.Dot11MetaInformation;
 import horse.wtf.nzyme.dot11.interceptors.misc.PwnagotchiAdvertisement;
-import horse.wtf.nzyme.dot11.probes.Dot11Probe;
 import horse.wtf.nzyme.notifications.FieldNames;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.joda.time.DateTime;
 
-import javax.annotation.Nullable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;

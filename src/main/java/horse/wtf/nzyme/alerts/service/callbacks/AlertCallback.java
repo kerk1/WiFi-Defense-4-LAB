@@ -17,8 +17,6 @@
 
 package horse.wtf.nzyme.alerts.service.callbacks;
 
-import horse.wtf.nzyme.alerts.Alert;
-
 public interface AlertCallback {
 
     void call(Alert alert);

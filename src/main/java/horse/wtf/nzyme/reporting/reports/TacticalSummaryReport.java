@@ -23,7 +23,6 @@ import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import freemarker.template.Template;
 import horse.wtf.nzyme.NzymeLeader;
-import horse.wtf.nzyme.alerts.Alert;
 import horse.wtf.nzyme.dot11.networks.sentry.db.SentrySSID;
 import horse.wtf.nzyme.events.Event;
 import horse.wtf.nzyme.reporting.ReportBase;

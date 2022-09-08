@@ -23,7 +23,6 @@ import com.google.common.collect.Maps;
 import com.typesafe.config.Config;
 import freemarker.template.Template;
 import freemarker.template.TemplateExceptionHandler;
-import horse.wtf.nzyme.alerts.Alert;
 import horse.wtf.nzyme.configuration.ConfigurationKeys;
 import horse.wtf.nzyme.configuration.ConfigurationValidator;
 import horse.wtf.nzyme.configuration.IncompleteConfigurationException;
@@ -40,7 +39,6 @@ import org.simplejavamail.email.EmailBuilder;
 import org.simplejavamail.mailer.MailerBuilder;
 
 import javax.annotation.Nullable;
-import javax.mail.Message;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.StringWriter;
@@ -48,8 +46,6 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.List;
 import java.util.Map;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class EmailCallback implements AlertCallback {
 

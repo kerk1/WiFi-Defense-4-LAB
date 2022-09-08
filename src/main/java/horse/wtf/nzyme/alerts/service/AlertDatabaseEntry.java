@@ -17,9 +17,9 @@
 
 package horse.wtf.nzyme.alerts.service;
 
+import app.nzyme.plugin.Alert;
+import app.nzyme.plugin.Subsystem;
 import com.google.auto.value.AutoValue;
-import horse.wtf.nzyme.Subsystem;
-import horse.wtf.nzyme.alerts.Alert;
 import org.joda.time.DateTime;
 
 import java.util.UUID;

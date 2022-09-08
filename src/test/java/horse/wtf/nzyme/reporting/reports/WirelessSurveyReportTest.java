@@ -1,7 +1,6 @@
 package horse.wtf.nzyme.reporting.reports;
 
 import horse.wtf.nzyme.MockNzyme;
-import horse.wtf.nzyme.dot11.Dot11MetaInformation;
 import horse.wtf.nzyme.dot11.MalformedFrameException;
 import org.joda.time.DateTime;
 import org.testng.annotations.Test;

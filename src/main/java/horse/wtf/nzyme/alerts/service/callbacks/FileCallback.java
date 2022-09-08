@@ -20,7 +20,6 @@ package horse.wtf.nzyme.alerts.service.callbacks;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.google.auto.value.AutoValue;
 import com.typesafe.config.Config;
-import horse.wtf.nzyme.alerts.Alert;
 import horse.wtf.nzyme.configuration.ConfigurationKeys;
 import horse.wtf.nzyme.configuration.ConfigurationValidator;
 import horse.wtf.nzyme.configuration.IncompleteConfigurationException;

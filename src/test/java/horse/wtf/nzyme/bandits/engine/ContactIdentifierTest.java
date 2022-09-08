@@ -12,7 +12,6 @@ import horse.wtf.nzyme.bandits.identifiers.BanditIdentifier;
 import horse.wtf.nzyme.bandits.identifiers.FingerprintBanditIdentifier;
 import horse.wtf.nzyme.bandits.identifiers.SSIDIBanditdentifier;
 import horse.wtf.nzyme.bandits.identifiers.SignalStrengthBanditIdentifier;
-import horse.wtf.nzyme.dot11.Dot11MetaInformation;
 import horse.wtf.nzyme.dot11.MalformedFrameException;
 import horse.wtf.nzyme.dot11.anonymization.Anonymizer;
 import horse.wtf.nzyme.dot11.parsers.Dot11BeaconFrameParser;

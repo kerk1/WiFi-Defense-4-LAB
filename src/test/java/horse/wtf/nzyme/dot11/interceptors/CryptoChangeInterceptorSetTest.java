@@ -3,7 +3,6 @@ package horse.wtf.nzyme.dot11.interceptors;
 import com.codahale.metrics.MetricRegistry;
 import horse.wtf.nzyme.MockNzyme;
 import horse.wtf.nzyme.NzymeLeader;
-import horse.wtf.nzyme.alerts.Alert;
 import horse.wtf.nzyme.alerts.CryptoChangeBeaconAlert;
 import horse.wtf.nzyme.alerts.CryptoChangeProbeRespAlert;
 import horse.wtf.nzyme.dot11.Dot11FrameInterceptor;

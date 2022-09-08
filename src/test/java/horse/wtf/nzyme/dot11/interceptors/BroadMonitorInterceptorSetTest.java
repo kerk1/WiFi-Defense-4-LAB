@@ -24,7 +24,6 @@ import horse.wtf.nzyme.dot11.MalformedFrameException;
 import horse.wtf.nzyme.dot11.anonymization.Anonymizer;
 import horse.wtf.nzyme.dot11.frames.*;
 import horse.wtf.nzyme.dot11.parsers.*;
-import horse.wtf.nzyme.notifications.Notification;
 import horse.wtf.nzyme.notifications.uplinks.misc.LoopbackUplink;
 import horse.wtf.nzyme.processing.FrameProcessor;
 import org.pcap4j.packet.IllegalRawDataException;

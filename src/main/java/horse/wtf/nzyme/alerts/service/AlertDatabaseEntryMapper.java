@@ -17,8 +17,6 @@
 
 package horse.wtf.nzyme.alerts.service;
 
-import horse.wtf.nzyme.Subsystem;
-import horse.wtf.nzyme.alerts.Alert;
 import horse.wtf.nzyme.database.Database;
 import org.jdbi.v3.core.mapper.RowMapper;
 import org.jdbi.v3.core.statement.StatementContext;

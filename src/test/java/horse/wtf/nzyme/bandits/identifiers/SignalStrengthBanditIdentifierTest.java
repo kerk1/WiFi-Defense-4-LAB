@@ -1,7 +1,6 @@
 package horse.wtf.nzyme.bandits.identifiers;
 
 import com.codahale.metrics.MetricRegistry;
-import horse.wtf.nzyme.dot11.Dot11MetaInformation;
 import horse.wtf.nzyme.dot11.MalformedFrameException;
 import horse.wtf.nzyme.dot11.anonymization.Anonymizer;
 import horse.wtf.nzyme.dot11.parsers.Dot11BeaconFrameParser;
@@ -11,7 +10,6 @@ import horse.wtf.nzyme.dot11.parsers.Frames;
 import org.pcap4j.packet.IllegalRawDataException;
 import org.testng.annotations.Test;
 
-import java.util.ArrayList;
 import java.util.Optional;
 
 import static org.testng.Assert.*;
